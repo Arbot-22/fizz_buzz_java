@@ -16,6 +16,18 @@ public class FizzBuzzApplication {
 			return  Integer.toString(number) ;
 		}
 	}
+	public String FizzBuzz2(int number){
+
+		if(number % 15 == 0){
+			return "FizzBuzz";
+		}else if (number % 3 == 0 || Integer.toString(number).contains("3")){
+			return "Fizz";
+		}else if (number % 5 == 0 ||  Integer.toString(number).contains("5")){
+			return "Buzz";
+		}else{
+			return  Integer.toString(number) ;
+		}
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(FizzBuzzApplication.class, args);
 	}
