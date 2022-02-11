@@ -65,6 +65,14 @@ public class FizzBuzzApplication {
 	}
 	public static void main(String[] args){
 		SpringApplication.run(FizzBuzzApplication.class, args);
+		createFile();
+		String result;
+		for (int i = 1; i <= 100; i++) {
+			result = fizzBuzz(i);
+			System.out.println(result);
+			insertValue(result);
+
+		}
 
 	}
 }
