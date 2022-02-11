@@ -1,0 +1,2 @@
+# fizz_buzz_java
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1f07b57ab05e424495d9d653d8304a26)](https://app.codacy.com/gh/Arbot-22/fizz_buzz_java?utm_source=github.com&utm_medium=referral&utm_content=Arbot-22/fizz_buzz_java&utm_campaign=Badge_Grade_Settings)
